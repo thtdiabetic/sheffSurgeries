@@ -4,9 +4,9 @@ class Patient {
 String patientName
 String patientAddress
 String patientResidence
-String patientDob
+Date patientDob
 String patientID
-String dateRegistered
+Date dateRegistered
 String patientPhone
 
 static hasMany =[doctors:Doctor, surgerys:Surgery]

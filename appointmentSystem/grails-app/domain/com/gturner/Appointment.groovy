@@ -2,8 +2,8 @@ package com.gturner
 
 	class Appointment {
 	Date appDate
-	float appTime
-	int appDuration
+	String appTime
+	String appDuration
 	String roomNumber
 
 
