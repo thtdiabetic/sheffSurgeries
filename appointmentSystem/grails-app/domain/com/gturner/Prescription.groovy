@@ -7,6 +7,9 @@ String medicine
 int totalCost
 Date dateIssued
 boolean patientPaying
+
+static belongsTo =[Patient]
+
     static constraints = {
 pharmacyName nullable: false, blank: false
 prescripNumber nullable: false, blank: false
